@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PetSimsRUs.exe" version="1.0.0.1" publicKeyToken="c207ca00fc8ebef9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PetSimsRUs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PetSimsRUs.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI.dll" size="10240">
+      <assemblyIdentity name="GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WdivneQ6BXC64zKt6biWyQ+4dtLiIpsHcS2bvxL3SEI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.TestPlatform.TestFramework.dll" size="75048">
+      <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.TestFramework" version="14.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gRcSU2C89W+Shesn+Bv3f5BMaZwB5TetNt+m9TRPGrQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" size="41256">
+      <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions" version="14.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ohQS08B29xdJ/iizFEofmakmg8ZlvvEICBYh7vvwKNo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PetSimsRUs.exe" size="11744">
+      <assemblyIdentity name="PetSimsRUs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JPfVdEfmuj2yW8As9DdxEWMyn1ph/4eZzILpseRoqeo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Server.dll" size="5632">
+      <assemblyIdentity name="Server" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pItBUYr2lV0PziFQDVpjEHRkQ6dmToDlFJa/qeBI5js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FishAssets\AnglerFish_Lit.png" size="11179">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2jepLcL0BOV4s/iv5w2Tx2yh+dMm9GnoL1G9y458u/Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\AnglerFish_Unlit.png" size="9400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7Gt2OL4MaN5y40nRubrluhuEoGDi9us6XU4TJTXrU6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\AquariumBackground.png" size="960191">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/0e7E/Fvl5i4NWcZ8C9ETbZIljFXZ/tsJH4An1RC4r8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\JavaFish.png" size="10613">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QXIwLRyIyPAyCov7lg2eDsMvIeD9L+RR7kYt5tBpuH4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\OrangeFish.png" size="8627">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+i81Ybs/LEh49c8IwIIB7dz8Bg3KwxlM6Q5iHTemSek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\PiranhaGreen.png" size="13995">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YYq6NIC0lMIcFYKOiKL8H3LKtKcY/VVvSlxdbQYqzPI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\PiranhaRed.png" size="12434">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rVuU1bowwXybnI/KDkCIaeSL9FMyRvNnNNqcwGhnHeQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\Seahorse.png" size="11232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hUFZwJbRB2zLDxCa/2PKL3gzUQTKlJ5DzlAXww6KN+0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FishAssets\Urchin.png" size="10759">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0gEqSS0JeFFTJXQqWu5SUSwlHxuXU8emCjIun/ED+qw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PetSimsRUs.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-4RM50H40\roqee" issuerKeyHash="986781ac728cb7fb3b71236a3c4f7fb33db91908" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MY9QMkEoNDiM8W44zji65wtTXpUYIqDlrpkkiBTPF4w=</DigestValue></Reference></SignedInfo><SignatureValue>sNCSpZCcBWSwGEj0+KNssKEQf89Wuhl8CuIoUDUTABqKwX66fN+bDbUPkzgapXOLRnaSqn7J0jhfzy+LDgjlaITFGMFp+lbBn5KiQ1UZ+OviEghWx1D/my+Pkg1sdjLAg8wotx1ivCGoQLFzlJsqkpXlVT6c0f8RNikwRS/Kelk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>50E+6fViG4cay2K4/eIe+Ox8Hr8aaopOPK8t/PNhOFTZAbfWB36Xb6CPDPng2tapRQiRk/2jDNMDzlu31v9dfIq0SuljmoZmcuXr/PzQdJbcHKeDswc214eCDTlQVT3YDc3MsVk6nLT6HZ1VnhX7Nr1dmgt3Bm5/oi0TOfQOZbE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8c17cf14882499aee5a02218955e530be7ba38ce386ef18c3834284132508f31" Description="" Url=""><as:assemblyIdentity name="PetSimsRUs.exe" version="1.0.0.1" publicKeyToken="c207ca00fc8ebef9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-4RM50H40\roqee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W77vEhOQhyTAvsowQllTxe+My2vzRl516ccIwvSCY08=</DigestValue></Reference></SignedInfo><SignatureValue>Udsi2aXkcnJt71oT/1Thw/5pFq05XRcpZe7cptl3AeR+PRQvIRU3pJFjVbiUu/RbiNorLCS0xIVXvS5K7K4CdctRDsqqOPNFpibKI0x2sCQLBBRFE+lS+t8mRWE2I4sx541nhze5Y/8cC21u0/+RrRdvFBZEMOK3bjG7fudnbzQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>50E+6fViG4cay2K4/eIe+Ox8Hr8aaopOPK8t/PNhOFTZAbfWB36Xb6CPDPng2tapRQiRk/2jDNMDzlu31v9dfIq0SuljmoZmcuXr/PzQdJbcHKeDswc214eCDTlQVT3YDc3MsVk6nLT6HZ1VnhX7Nr1dmgt3Bm5/oi0TOfQOZbE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQTVFn5aJPZ4VLJF4rheYZ5TANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA0AFIATQA1ADAASAA0ADAAXAByAG8AcQBlAGUwHhcNMjExMjA2MTkzODM4WhcNMjIxMjA3MDEzODM4WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA0AFIATQA1ADAASAA0ADAAXAByAG8AcQBlAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOdBPun1YhuHGstiuP3iHvjsfB6/GmqKTjyvLfzzYThU2QG31gd+l2+gjwz54NrWqUUIkZP9owzTA85bt9b/XXyKtErpY5qGZnLl6/z80HSW3Byng7MHNteHgg05UFU92A3NzLFZOpy0+h2dVZ4V+za9XZoLdwZuf6ItEzn0DmWxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZZSp1AxEpPdN+mPYjRJ+ExJOgnA+Ox9jsM7gH/WQdtTRwo5GU8mk8zAJ4a/S87zqCx9qKqdQHBXOeo+YraoCwGgJN0QKxiHowDDRdgZDCMctGIU2l7ll0iXivTI1sFfKZ3/1jhajBCs4BOvoErGydr7Rk3PJuYHrFEQr98ac2n0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
